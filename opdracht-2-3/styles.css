@@ -1,0 +1,51 @@
+/*de blokken hebben nu een standaard hoogte. Als je je scherm verder verkleint gaat de tekst uit de blokken lopen. Dit is niet mooi. Dit kan je aanpassen door van de height een min-height te maken.*/
+body {
+    background-color: #F2F3D9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header h1, header h3 {
+    padding: 0 40px;
+}
+
+nav {
+    background-color: #151E3F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+section p {
+    background-color: #C16E70;
+    height: 350px;
+    max-width: 280px;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 20px 10px 20px;
+}
+
+.block {
+    height: 200px;
+
+}
